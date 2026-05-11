@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\WhatsApp\Events;
+namespace Caydeesoft\WhatsApp\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

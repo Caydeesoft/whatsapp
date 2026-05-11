@@ -1,10 +1,10 @@
 <?php
 
-namespace SocialMedia\WhatsApp\Http\Controllers;
+namespace Caydeesoft\WhatsApp\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use SocialMedia\WhatsApp\Services\MetaWhatsAppClient;
+use CCaydeesoft\WhatsApp\Services\MetaWhatsAppClient;
 
 class WhatsAppMessageController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\WhatsApp;
+namespace Caydeesoft\WhatsApp;
 
 use Illuminate\Support\ServiceProvider;
 

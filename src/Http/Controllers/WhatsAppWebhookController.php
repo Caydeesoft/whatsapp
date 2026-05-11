@@ -1,12 +1,12 @@
 <?php
 
-namespace SocialMedia\WhatsApp\Http\Controllers;
+namespace Caydeesoft\WhatsApp\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use SocialMedia\WhatsApp\Events\WhatsAppWebhookReceived;
-use SocialMedia\WhatsApp\Services\MetaWhatsAppClient;
+use Caydeesoft\WhatsApp\Events\WhatsAppWebhookReceived;
+use Caydeesoft\WhatsApp\Services\MetaWhatsAppClient;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
 class WhatsAppWebhookController

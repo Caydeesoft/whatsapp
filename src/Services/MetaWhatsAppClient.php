@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\WhatsApp\Services;
+namespace Caydeesoft\WhatsApp\Services;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Http\Client\Factory as HttpFactory;

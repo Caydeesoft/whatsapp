@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use SocialMedia\WhatsApp\Http\Controllers\WhatsAppMessageController;
-use SocialMedia\WhatsApp\Http\Controllers\WhatsAppWebhookController;
+use Caydeesoft\WhatsApp\Http\Controllers\WhatsAppMessageController;
+use Caydeesoft\WhatsApp\Http\Controllers\WhatsAppWebhookController;
 
 Route::prefix('api/'.trim((string) config('whatsapp.route_prefix', 'whatsapp'), '/'))
     ->middleware(config('whatsapp.middleware', ['api']))
